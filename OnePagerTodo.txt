@@ -1,0 +1,6 @@
+- Trafikdata visning (Farvekodede veje)
+- DOKK1 besøgende visning
+- Bygning med event (farve + ring omkring)
+- Evt. bibliotek med event
+- Friluftslivaarhus info visning (områder markeret grønt?)
+- Event/område info UI mockup
