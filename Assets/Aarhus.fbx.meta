@@ -159,6 +159,14 @@ ModelImporter:
     100302: "Bld_Langen\xE6s_MeshPart1"
     100304: Bld_MidtbyNord_MeshPart3
     100306: Bld_MidtbySyd_MeshPart2
+    100308: Dokk1Bay
+    100310: Loc_Dokk1
+    100312: Loc_UniBibliotek
+    100314: Loc_AULibrary
+    100316: Loc_Bruuns
+    100318: Loc_Medicinerladen
+    100320: INCUBABay
+    100322: Loc_INCUBA
     400000: //RootNode
     400002: AarhusRoofDetails
     400004: AarhusRoofDetails_MeshPart0
@@ -313,6 +321,14 @@ ModelImporter:
     400302: "Bld_Langen\xE6s_MeshPart1"
     400304: Bld_MidtbyNord_MeshPart3
     400306: Bld_MidtbySyd_MeshPart2
+    400308: Dokk1Bay
+    400310: Loc_Dokk1
+    400312: Loc_UniBibliotek
+    400314: Loc_AULibrary
+    400316: Loc_Bruuns
+    400318: Loc_Medicinerladen
+    400320: INCUBABay
+    400322: Loc_INCUBA
     2300000: AarhusRoofDetails_MeshPart0
     2300002: AarhusRoofDetails_MeshPart1
     2300004: AarhusRoofDetails_MeshPart2
@@ -446,6 +462,15 @@ ModelImporter:
     2300260: "Bld_Langen\xE6s_MeshPart1"
     2300262: Bld_MidtbyNord_MeshPart3
     2300264: Bld_MidtbySyd_MeshPart2
+    2300266: Dokk1Bay
+    2300268: Loc_Dokk1
+    2300270: Bld_Havnen
+    2300272: Loc_UniBibliotek
+    2300274: Loc_AULibrary
+    2300276: Loc_Bruuns
+    2300278: Loc_Medicinerladen
+    2300280: INCUBABay
+    2300282: Loc_INCUBA
     3300000: AarhusRoofDetails_MeshPart0
     3300002: AarhusRoofDetails_MeshPart1
     3300004: AarhusRoofDetails_MeshPart2
@@ -579,6 +604,15 @@ ModelImporter:
     3300260: "Bld_Langen\xE6s_MeshPart1"
     3300262: Bld_MidtbyNord_MeshPart3
     3300264: Bld_MidtbySyd_MeshPart2
+    3300266: Dokk1Bay
+    3300268: Loc_Dokk1
+    3300270: Bld_Havnen
+    3300272: Loc_UniBibliotek
+    3300274: Loc_AULibrary
+    3300276: Loc_Bruuns
+    3300278: Loc_Medicinerladen
+    3300280: INCUBABay
+    3300282: Loc_INCUBA
     4300000: AarhusRoofDetails_MeshPart0
     4300002: AarhusRoofDetails_MeshPart1
     4300004: AarhusRoofDetails_MeshPart2
@@ -712,8 +746,17 @@ ModelImporter:
     4300260: "Bld_Langen\xE6s_MeshPart1"
     4300262: Bld_Katrinebjerg_MeshPart0
     4300264: Bld_Katrinebjerg_MeshPart1
+    4300266: Loc_Dokk1
+    4300268: Dokk1Bay
+    4300270: Loc_UniBibliotek
+    4300272: Bld_Havnen
+    4300274: Loc_Medicinerladen
+    4300276: Loc_AULibrary
+    4300278: Loc_Bruuns
+    4300280: Loc_INCUBA
+    4300282: INCUBABay
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
   animations:
