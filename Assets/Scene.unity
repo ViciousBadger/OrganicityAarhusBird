@@ -195,12 +195,13 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 36066515}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -50}
+  m_LocalPosition: {x: 0, y: 0, z: -75}
   m_LocalScale: {x: 0.06, y: 0.06, z: 0.06}
   m_Children:
   - {fileID: 1396125697}
   - {fileID: 518419741}
   - {fileID: 1891341898}
+  - {fileID: 1785955586}
   m_Father: {fileID: 1144645828}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1561,7 +1562,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &518419741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1579,7 +1580,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 198, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518419742
 MonoBehaviour:
@@ -1708,10 +1709,10 @@ RectTransform:
   m_Father: {fileID: 518419741}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 99, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 99, y: -46.5}
+  m_SizeDelta: {x: 158, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569710466
 MonoBehaviour:
@@ -1860,7 +1861,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Church
+  m_Text: Aarhus Cathedral
 --- !u!222 &582002609
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2157,7 +2158,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1509836036588828, guid: 3287a6ee629b0834ba17c1f5f75f0e96, type: 2}
       propertyPath: m_Name
-      value: Event (3)
+      value: test events
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509836036588828, guid: 3287a6ee629b0834ba17c1f5f75f0e96, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224950535861654052, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
@@ -2167,7 +2172,7 @@ Prefab:
     - target: {fileID: 224950535861654052, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3287a6ee629b0834ba17c1f5f75f0e96, type: 2}
@@ -2437,7 +2442,7 @@ Prefab:
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 470
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
@@ -2949,13 +2954,14 @@ RectTransform:
   - {fileID: 1669820528}
   - {fileID: 582002607}
   - {fileID: 667821368}
+  - {fileID: 1761030561}
   m_Father: {fileID: 36066519}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 220}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.79999995, y: 166.94997}
+  m_SizeDelta: {x: 949.9, y: 306.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1396125698
 MonoBehaviour:
@@ -2963,7 +2969,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1396125696}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -2982,7 +2988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9411765}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -3013,8 +3019,8 @@ MonoBehaviour:
     m_Right: 20
     m_Top: 20
     m_Bottom: 20
-  m_ChildAlignment: 4
-  m_Spacing: 0
+  m_ChildAlignment: 0
+  m_Spacing: 5
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
@@ -3075,7 +3081,7 @@ Prefab:
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 790
+      value: 470
       objectReference: {fileID: 0}
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
@@ -3475,7 +3481,7 @@ Prefab:
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 1110
+      value: 790
       objectReference: {fileID: 0}
     - target: {fileID: 224770918015691286, guid: 3287a6ee629b0834ba17c1f5f75f0e96,
         type: 2}
@@ -3659,7 +3665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1753592311}
   m_LocalRotation: {x: 0.02776508, y: 0.025740538, z: -0.0008142224, w: 0.99928266}
-  m_LocalPosition: {x: -1.0900301, y: 49.07668, z: -107.71959}
+  m_LocalPosition: {x: -3.58, y: 51.64, z: -118.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3677,6 +3683,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: a2e6cd2ba020f464dbaef5522988d5f7, type: 2}
+--- !u!1 &1761030560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1761030561}
+  - component: {fileID: 1761030563}
+  - component: {fileID: 1761030562}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1761030561
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761030560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1396125697}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1761030562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761030560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 24
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 128
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'The longest and tallest church in the country, at 93 m (305 ft) in length
+    and 96 m (315 ft) in height.
+
+    The construction began in the 12th century and it is the main edifice of the diocese
+    of Aarhus for the Church of Denmark, dedicated to the patron saint of sailors,
+    St. Clemens. The church can seat around 1200 people.'
+--- !u!222 &1761030563
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1761030560}
+--- !u!1 &1785955585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1785955586}
+  - component: {fileID: 1785955589}
+  - component: {fileID: 1785955587}
+  m_Layer: 5
+  m_Name: BuildingTitle (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1785955586
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785955585}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 36066519}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -10.2, y: -115}
+  m_SizeDelta: {x: 949, y: 180.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1785955587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785955585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.78431374}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1785955589
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1785955585}
 --- !u!1001 &1823228890
 Prefab:
   m_ObjectHideFlags: 0
@@ -3928,7 +4081,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -160}
+  m_AnchoredPosition: {x: 0, y: -152}
   m_SizeDelta: {x: 1600, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1891341901
